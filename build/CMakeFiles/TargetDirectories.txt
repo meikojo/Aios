@@ -1,0 +1,3 @@
+C:/Users/Husse/Downloads/ai_os_core/build/CMakeFiles/ai_os_core.dir
+C:/Users/Husse/Downloads/ai_os_core/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Husse/Downloads/ai_os_core/build/CMakeFiles/ZERO_CHECK.dir

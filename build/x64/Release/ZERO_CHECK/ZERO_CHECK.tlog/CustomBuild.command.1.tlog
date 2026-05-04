@@ -1,0 +1,10 @@
+^C:\USERS\HUSSE\DOWNLOADS\AI_OS_CORE\BUILD\CMAKEFILES\95B6134872CA70C3EB83E9CC930AF107\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Husse/Downloads/ai_os_core -BC:/Users/Husse/Downloads/ai_os_core/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Husse/Downloads/ai_os_core/build/AIOSCore.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
